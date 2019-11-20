@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+LIBS:Driverboard_UMCU-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5800 4550 2    50   Output ~ 0
+Ref_V-
+Text HLabel 5800 3350 2    50   Output ~ 0
+Ref_V+
+Text HLabel 3700 2600 0    50   Input ~ 0
+-5V
+Text HLabel 3700 2900 0    50   Input ~ 0
+GND
+$Comp
+L Reference_Voltage:LM4041LP-ADJ U1
+U 1 1 5DD703A3
+P 4750 3650
+F 0 "U1" V 4796 3563 50  0000 R CNN
+F 1 "LM4041DYM3-ADJ-TR" V 4705 3563 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4750 3450 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4041-n.pdf" H 4850 3800 50  0001 C CIN
+	1    4750 3650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4750 3800 4750 3950
+$Comp
+L Device:R_Small R?
+U 1 1 5DD730FE
+P 4750 3200
+AR Path="/5DCD3ADE/5DD730FE" Ref="R?"  Part="1" 
+AR Path="/5DCD39AB/5DD730FE" Ref="R?"  Part="1" 
+AR Path="/5DD2EEC0/5DD730FE" Ref="R27"  Part="1" 
+F 0 "R27" V 4554 3200 50  0000 C CNN
+F 1 "470R" V 4645 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4750 3200 50  0001 C CNN
+F 3 "~" H 4750 3200 50  0001 C CNN
+	1    4750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3100 4750 3050
+$Comp
+L Device:R_Small R?
+U 1 1 5DD7390A
+P 5150 3500
+AR Path="/5DCD3ADE/5DD7390A" Ref="R?"  Part="1" 
+AR Path="/5DCD39AB/5DD7390A" Ref="R?"  Part="1" 
+AR Path="/5DD2EEC0/5DD7390A" Ref="R29"  Part="1" 
+F 0 "R29" V 4954 3500 50  0000 C CNN
+F 1 "3k" V 5045 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 3500 50  0001 C CNN
+F 3 "~" H 5150 3500 50  0001 C CNN
+	1    5150 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DD73DBA
+P 5150 3800
+AR Path="/5DCD3ADE/5DD73DBA" Ref="R?"  Part="1" 
+AR Path="/5DCD39AB/5DD73DBA" Ref="R?"  Part="1" 
+AR Path="/5DD2EEC0/5DD73DBA" Ref="R30"  Part="1" 
+F 0 "R30" V 4954 3800 50  0000 C CNN
+F 1 "8.2k" V 5045 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 3800 50  0001 C CNN
+F 3 "~" H 5150 3800 50  0001 C CNN
+	1    5150 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 3300 4750 3350
+Wire Wire Line
+	5150 3350 4750 3350
+Connection ~ 4750 3350
+Wire Wire Line
+	4750 3350 4750 3500
+Wire Wire Line
+	5150 3700 5150 3650
+Wire Wire Line
+	4950 3650 5150 3650
+Connection ~ 5150 3650
+Wire Wire Line
+	5150 3650 5150 3600
+Wire Wire Line
+	5150 3950 4950 3950
+Wire Wire Line
+	5150 3900 5150 3950
+Wire Wire Line
+	5150 3350 5150 3400
+Wire Wire Line
+	5150 3350 5800 3350
+Connection ~ 5150 3350
+$Comp
+L Reference_Voltage:LM4041LP-ADJ U2
+U 1 1 5DD784DC
+P 4750 4850
+F 0 "U2" V 4796 4763 50  0000 R CNN
+F 1 "LM4041DYM3-ADJ-TR" V 4705 4763 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4750 4650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4041-n.pdf" H 4850 5000 50  0001 C CIN
+	1    4750 4850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4750 5000 4750 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5DD784E5
+P 4750 4400
+AR Path="/5DCD3ADE/5DD784E5" Ref="R?"  Part="1" 
+AR Path="/5DCD39AB/5DD784E5" Ref="R?"  Part="1" 
+AR Path="/5DD2EEC0/5DD784E5" Ref="R28"  Part="1" 
+F 0 "R28" V 4554 4400 50  0000 C CNN
+F 1 "470R" V 4645 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4750 4400 50  0001 C CNN
+F 3 "~" H 4750 4400 50  0001 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4300 4750 4250
+$Comp
+L Device:R_Small R?
+U 1 1 5DD784EC
+P 5150 4700
+AR Path="/5DCD3ADE/5DD784EC" Ref="R?"  Part="1" 
+AR Path="/5DCD39AB/5DD784EC" Ref="R?"  Part="1" 
+AR Path="/5DD2EEC0/5DD784EC" Ref="R31"  Part="1" 
+F 0 "R31" V 4954 4700 50  0000 C CNN
+F 1 "8.2k" V 5045 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 4700 50  0001 C CNN
+F 3 "~" H 5150 4700 50  0001 C CNN
+	1    5150 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DD784F2
+P 5150 5000
+AR Path="/5DCD3ADE/5DD784F2" Ref="R?"  Part="1" 
+AR Path="/5DCD39AB/5DD784F2" Ref="R?"  Part="1" 
+AR Path="/5DD2EEC0/5DD784F2" Ref="R32"  Part="1" 
+F 0 "R32" V 4954 5000 50  0000 C CNN
+F 1 "8.2k" V 5045 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 5000 50  0001 C CNN
+F 3 "~" H 5150 5000 50  0001 C CNN
+	1    5150 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 4500 4750 4550
+Wire Wire Line
+	5150 4550 4750 4550
+Connection ~ 4750 4550
+Wire Wire Line
+	4750 4550 4750 4700
+Wire Wire Line
+	5150 4900 5150 4850
+Wire Wire Line
+	4950 4850 5150 4850
+Connection ~ 5150 4850
+Wire Wire Line
+	5150 4850 5150 4800
+Wire Wire Line
+	5150 5150 4950 5150
+Wire Wire Line
+	5150 5100 5150 5150
+Wire Wire Line
+	5150 4550 5150 4600
+Wire Wire Line
+	5150 4550 5800 4550
+Connection ~ 5150 4550
+Text Notes 5850 3250 0    50   ~ 0
+-0.4V
+Text Notes 5750 4750 0    50   ~ 0
+-2.6V
+Text Notes 6000 4050 0    50   ~ 0
+Vo = 1.233 * (R2/R1 + 1)\n\nR2/R1 = (V0 / 1.233) - 1
+$Comp
+L power:-5V #PWR?
+U 1 1 5DD7D9B8
+P 3850 2600
+AR Path="/5DD7D9B8" Ref="#PWR?"  Part="1" 
+AR Path="/5DD2EEC0/5DD7D9B8" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 3850 2700 50  0001 C CNN
+F 1 "-5V" H 3700 2650 50  0000 C CNN
+F 2 "" H 3850 2600 50  0001 C CNN
+F 3 "" H 3850 2600 50  0001 C CNN
+	1    3850 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 2600 3850 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5DD7D9C6
+P 4900 3050
+AR Path="/5DD7D9C6" Ref="#PWR?"  Part="1" 
+AR Path="/5DD2EEC0/5DD7D9C6" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 4900 2800 50  0001 C CNN
+F 1 "GND" H 4905 2877 50  0001 C CNN
+F 2 "" H 4900 3050 50  0001 C CNN
+F 3 "" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2900 3700 2900
+Wire Wire Line
+	4900 3050 4750 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5DD80ADE
+P 4900 4250
+AR Path="/5DD80ADE" Ref="#PWR?"  Part="1" 
+AR Path="/5DD2EEC0/5DD80ADE" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 4900 4000 50  0001 C CNN
+F 1 "GND" H 4905 4077 50  0001 C CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4250 4750 4250
+$Comp
+L power:-5V #PWR?
+U 1 1 5DD81409
+P 4950 4000
+AR Path="/5DD81409" Ref="#PWR?"  Part="1" 
+AR Path="/5DD2EEC0/5DD81409" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 4950 4100 50  0001 C CNN
+F 1 "-5V" H 4800 4050 50  0000 C CNN
+F 2 "" H 4950 4000 50  0001 C CNN
+F 3 "" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4000 4950 3950
+Connection ~ 4950 3950
+Wire Wire Line
+	4950 3950 4750 3950
+$Comp
+L power:-5V #PWR?
+U 1 1 5DD81BA9
+P 4950 5200
+AR Path="/5DD81BA9" Ref="#PWR?"  Part="1" 
+AR Path="/5DD2EEC0/5DD81BA9" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 4950 5300 50  0001 C CNN
+F 1 "-5V" H 4800 5250 50  0000 C CNN
+F 2 "" H 4950 5200 50  0001 C CNN
+F 3 "" H 4950 5200 50  0001 C CNN
+	1    4950 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 5150 4950 5200
+Connection ~ 4950 5150
+Wire Wire Line
+	4950 5150 4750 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5DD8338C
+P 3850 2900
+AR Path="/5DD8338C" Ref="#PWR?"  Part="1" 
+AR Path="/5DD2EEC0/5DD8338C" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 3850 2650 50  0001 C CNN
+F 1 "GND" H 3855 2727 50  0001 C CNN
+F 2 "" H 3850 2900 50  0001 C CNN
+F 3 "" H 3850 2900 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 5450 3500 0    50   ~ 0
+R1
+Text Notes 5450 3850 0    50   ~ 0
+R2
+Text Notes 5450 4700 0    50   ~ 0
+R1
+Text Notes 5450 5050 0    50   ~ 0
+R2
+$EndSCHEMATC

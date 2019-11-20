@@ -1,0 +1,6 @@
+﻿*.kicad_pcb-bak
+*.xml
+fp-info-cache
+*.sch-bak
+Driverboard_UMCU-cache.lib
+*.xlsx
