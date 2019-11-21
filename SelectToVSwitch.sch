@@ -95,7 +95,7 @@ Connection ~ 5350 3800
 Wire Wire Line
 	5350 3800 5350 4050
 $Comp
-L Device:Q_PMOS_SGD Q9
+L Device:Q_PMOS_GSD Q9
 U 1 1 5DD33D43
 P 4400 3800
 AR Path="/5DCD3ADE/5DD33D43" Ref="Q9"  Part="1" 

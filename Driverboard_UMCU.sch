@@ -66,7 +66,7 @@ L's voor decoupling\n\nmosfet anti-reverse V beveiliging\n\n-5v = 8A max\n+12v =
 Text Notes 3800 5100 2    50   ~ 0
 Coil detune - 1\nGND - 3\nGND - 5\nTR-switch - 7\n\nMalf on TR-switch?\nRef V+ -  9\nRef V- - 11
 Text Notes 4000 5100 0    50   ~ 0
-2  - Coil detune\n4  - GND \n6  - GND \n8  - TR-switch\n\n\n10 - -5V (malf opamp voeding)\n12 - Malf
+2  - Coil detune\n4  - GND \n6  - GND \n8  - TR-switch\n\n\n10 - Malf_in\n12 - Malf
 $Comp
 L power:GNDREF #PWR0101
 U 1 1 5DCD925B
@@ -604,7 +604,7 @@ Wire Wire Line
 Text Notes 2800 2750 2    50   ~ 0
 +12V - 1\n-5v - 3\nGND- 5\nMalf - 7\n\nRef V+ - 9
 Text Notes 3000 2750 0    50   ~ 0
-2 - V_Detune\n4 - V_Detune\n6 - GND\n8 - Malf\n\n10 - Ref V-
+2 - V_Detune\n4 - V_Detune\n6 - GND\n8 - Malf_in\n\n10 - Ref V-
 Wire Wire Line
 	3200 2050 3200 2100
 Wire Wire Line
