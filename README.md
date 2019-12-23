@@ -9,7 +9,7 @@ This project contains a driverboard made for our 7T Philips Achieva MRI system. 
 
 The driverboard is used as an interface between the MRI scanner and the RF coil. It provides the following functions:
 - Provides the ID code of the coil.
-- Switches relativly high current DC signals for PIN-diode switching. 
+- Switches relatively high current DC signals for PIN-diode switching. 
 - Reports coil malfunctions to the scanner system. Special care has been taken to ensure this malfunction check is as robust as possible. 
 - Stable reference voltages, which are used to help facilitate remote PIN-diode malfunction checks using window comparators on external boards.
 
@@ -17,7 +17,7 @@ The design and subsequent drawing has been done in Kicad 5.1.5.
 
 
 ## Download
-Gerber and BOM production files for the lastest _field tested_ version of the PCB can be found in the 'Releases' page, or by following [this link](https://github.com/umcu7tcoillab/Driverboard/releases/latest). 
+Gerber and BOM production files for the latest _field tested_ version of the PCB can be found in the 'Releases' page, or by following [this link](https://github.com/umcu7tcoillab/Driverboard/releases/latest). 
 You can also make your own production files by downloading the Kicad project and generating them, but these are not guaranteed to have been field tested.
 
 
