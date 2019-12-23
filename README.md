@@ -1,8 +1,8 @@
-**7T Philips Achieva driverboard**
+**Driverboard for 7T MRI (Philips Achieva)**
 
-Made for our 7T Philips Achieva MRI system.
+A driverboard made for our 7T Philips Achieva MRI system. It has been tested in the field of the 7T MRI.
 
-Gerber files are included to be used for ordering your own PCB's.
+Gerber and BOM files for making your own PCB's are included.
 
 > PCB drawn in Kicad 5.1.5
 
