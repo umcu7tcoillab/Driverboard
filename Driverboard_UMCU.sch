@@ -1017,12 +1017,12 @@ Wire Wire Line
 Wire Wire Line
 	7900 4750 7900 4700
 $Comp
-L UMC_Logo:LOGO G1
+L _UMC_Logo:LOGO G1
 U 1 1 5DE9A983
 P 6300 7150
 F 0 "G1" H 6300 6715 60  0001 C CNN
 F 1 "LOGO" H 6300 7585 60  0001 C CNN
-F 2 "_Custom:UMC_logo_small" H 6300 7150 50  0001 C CNN
+F 2 "_Custom_footprints:UMC_logo_small" H 6300 7150 50  0001 C CNN
 F 3 "" H 6300 7150 50  0001 C CNN
 	1    6300 7150
 	1    0    0    -1  
