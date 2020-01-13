@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "Driverboard"
-Date "2019-11-14"
-Rev "V0.1"
+Date "2020-01-07"
+Rev "V0.2"
 Comp "UMC Utrecht"
 Comment1 ""
 Comment2 ""
