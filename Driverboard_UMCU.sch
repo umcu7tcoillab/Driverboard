@@ -830,28 +830,6 @@ F 3 "" H 1500 2250 50  0001 C CNN
 	1    1500 2250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 5DE089C2
-P 1250 2150
-F 0 "C17" H 1300 1900 50  0000 R CNN
-F 1 "10nF" H 1300 2000 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1250 2150 50  0001 C CNN
-F 3 "~" H 1250 2150 50  0001 C CNN
-	1    1250 2150
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0182
-U 1 1 5DE089C8
-P 1250 2250
-F 0 "#PWR0182" H 1250 2000 50  0001 C CNN
-F 1 "GND" H 1255 2077 50  0001 C CNN
-F 2 "" H 1250 2250 50  0001 C CNN
-F 3 "" H 1250 2250 50  0001 C CNN
-	1    1250 2250
-	-1   0    0    -1  
-$EndComp
 Connection ~ 1500 2050
 $Comp
 L Device:C_Small C18
@@ -875,63 +853,6 @@ F 3 "" H 1000 2250 50  0001 C CNN
 	1    1000 2250
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 2050 1250 2050
-Connection ~ 1250 2050
-$Comp
-L Device:C_Small C19
-U 1 1 5DE210FF
-P 7900 3700
-F 0 "C19" H 7808 3654 50  0000 R CNN
-F 1 "10nF" H 7808 3745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7900 3700 50  0001 C CNN
-F 3 "~" H 7900 3700 50  0001 C CNN
-	1    7900 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0184
-U 1 1 5DE21105
-P 7900 3800
-F 0 "#PWR0184" H 7900 3550 50  0001 C CNN
-F 1 "GND" H 7905 3627 50  0001 C CNN
-F 2 "" H 7900 3800 50  0001 C CNN
-F 3 "" H 7900 3800 50  0001 C CNN
-	1    7900 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C20
-U 1 1 5DE2110B
-P 7900 4850
-F 0 "C20" H 7808 4804 50  0000 R CNN
-F 1 "10nF" H 7808 4895 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7900 4850 50  0001 C CNN
-F 3 "~" H 7900 4850 50  0001 C CNN
-	1    7900 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0185
-U 1 1 5DE21111
-P 7900 4950
-F 0 "#PWR0185" H 7900 4700 50  0001 C CNN
-F 1 "GND" H 7905 4777 50  0001 C CNN
-F 2 "" H 7900 4950 50  0001 C CNN
-F 3 "" H 7900 4950 50  0001 C CNN
-	1    7900 4950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7900 3600 7900 3550
-Connection ~ 7900 3550
-Wire Wire Line
-	7900 3550 6800 3550
-Connection ~ 7900 4700
-Wire Wire Line
-	7900 4700 6800 4700
-Wire Wire Line
-	7900 4750 7900 4700
 $Comp
 L _UMC_Logo:LOGO G1
 U 1 1 5DE9A983
@@ -998,7 +919,7 @@ L Device:D_Zener_Small D7
 U 1 1 5DDAD783
 P 8150 1700
 F 0 "D7" H 8150 1905 50  0000 C CNN
-F 1 "21V" H 8150 1814 50  0000 C CNN
+F 1 "25V" H 8150 1814 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" V 8150 1700 50  0001 C CNN
 F 3 "~" V 8150 1700 50  0001 C CNN
 	1    8150 1700
@@ -1025,14 +946,10 @@ Wire Wire Line
 	8350 3600 8350 3550
 Connection ~ 8350 3550
 Wire Wire Line
-	8350 3550 7900 3550
-Wire Wire Line
 	9700 2700 9700 4700
 Wire Wire Line
 	8350 4750 8350 4700
 Connection ~ 8350 4700
-Wire Wire Line
-	8350 4700 7900 4700
 Wire Wire Line
 	7400 1900 6800 1900
 Wire Wire Line
@@ -1231,8 +1148,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 2050 1750 2050
 Wire Wire Line
-	1250 2050 1500 2050
-Wire Wire Line
 	2700 5700 5900 5700
 Wire Wire Line
 	3950 4100 4800 4100
@@ -1361,4 +1276,10 @@ Text GLabel 9700 3800 2    50   Input ~ 0
 TR-select
 Text GLabel 3050 3250 0    50   Input ~ 0
 Malfunction-helper-(MD)
+Wire Wire Line
+	1000 2050 1500 2050
+Wire Wire Line
+	6800 4700 8350 4700
+Wire Wire Line
+	6800 3550 8350 3550
 $EndSCHEMATC
