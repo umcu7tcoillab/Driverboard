@@ -8,3 +8,4 @@ fp-info-cache
 /Notes/*
 /Production files/*
 Thumbs.db
+*.directory
