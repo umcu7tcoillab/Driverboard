@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Driverboard"
-Date "2020-03-17"
-Rev "V0.3"
+Date "2020-04-10"
+Rev "V0.4"
 Comp "UMC Utrecht"
 Comment1 ""
 Comment2 ""
@@ -600,7 +600,7 @@ L Device:R_Small R13
 U 1 1 5DE23B6F
 P 1950 3950
 F 0 "R13" H 1891 3996 50  0000 R CNN
-F 1 "10k" H 1891 3905 50  0000 R CNN
+F 1 "470R" H 1891 3905 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 1950 3950 50  0001 C CNN
 F 3 "~" H 1950 3950 50  0001 C CNN
 	1    1950 3950
