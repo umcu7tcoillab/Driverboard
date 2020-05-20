@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name _UMC_Logo)(type Legacy)(uri "${KIPRJMOD}/Component libraries/UMC_Logo.lib")(options "")(descr ""))
+  (lib (name Driverboard_UMCU-rescue)(type Legacy)(uri ${KIPRJMOD}/Driverboard_UMCU-rescue.lib)(options "")(descr ""))
 )
