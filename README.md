@@ -12,8 +12,10 @@ The driverboard is used as an interface between the MRI scanner and the RF coil.
 - Switches relatively high current DC signals for PIN-diode switching. 
 - Reports coil malfunctions to the scanner system. Special care has been taken to ensure this malfunction check is as robust as possible. 
 - Stable reference voltages, which are used to help facilitate remote PIN-diode malfunction checks using window comparators on external boards.
-- Two outputs: Detune and TR-switch voltages
+- Switches bewteen +12V and -5V (provided externally).
+- Two outputs: Detune and TR-switch
 - 4A maximum current on the -5V per output.
+- 15-850ns switching time. (12V switching is slower due to current limiting)
 
 The design and subsequent drawing has been done in Kicad 5.1.5.
 
